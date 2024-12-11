@@ -1,0 +1,4 @@
+textwithSpaces = "hello world"
+textWithNoSpaces = textwithSpaces.replace(" ", "%20")
+
+print(textWithNoSpaces)  # Output: "hello_world"
